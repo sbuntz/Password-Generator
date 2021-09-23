@@ -23,11 +23,11 @@ function generatePassword(){
   var passwordResult = "";
   var PasswordLength = prompt("How many characters in your random password? (between 8 and 128)");
   if(isNaN(PasswordLength)){
-    alert("Please choose numbers between 8 - 128!");
+    alert("Please choose numbers between 8 - 128");
     return generatePassword()
   }
   if(PasswordLength<8 || PasswordLength> 128){
-    alert("Please choose numbers between 8 - 128!");
+    alert("Please choose numbers between 8 - 128");
     return generatePassword()
   }
   var ConfirmUpperCase = confirm("Does your password require uppercase letters?");
