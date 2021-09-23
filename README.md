@@ -7,4 +7,4 @@ The purpose of this project is to create an application that enables employees t
 ## Deployed Password Generator
 Deployed URL: https://sbuntz.github.io/Password-Generator/
 
-![](/assets/images/screenshot.png)
+![](/assets/Images/screenshot.png)
